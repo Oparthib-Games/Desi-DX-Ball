@@ -1,0 +1,190 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1827252780659404446
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1827252780659404443}
+  - component: {fileID: 1827252780659404442}
+  - component: {fileID: 1827252780659404441}
+  - component: {fileID: 1827252780659404440}
+  - component: {fileID: 1827252780659404447}
+  m_Layer: 0
+  m_Name: R8
+  m_TagString: bricks
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1827252780659404443
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1827252780659404446}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &1827252780659404442
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1827252780659404446}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: -6707004761326735063, guid: 7c87f0f7f59cc24479528928011540f3,
+    type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 0.28, y: 0.28166667}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!60 &1827252780659404441
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1827252780659404446}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.3750421, y: 0.31500003}
+    newSize: {x: 0.28, y: 0.28166667}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.15665591, y: 0.16362524}
+      - {x: -0.16365659, y: 0.16362524}
+      - {x: -0.18318784, y: 0.15581274}
+      - {x: -0.18318784, y: -0.12543726}
+      - {x: -0.14021909, y: -0.14887476}
+      - {x: -0.019125342, y: -0.15278101}
+      - {x: 0.16056216, y: -0.15278101}
+      - {x: 0.18790591, y: -0.11371851}
+      - {x: 0.19181216, y: -0.02778101}
+      - {x: 0.19181216, y: 0.15190649}
+--- !u!50 &1827252780659404440
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1827252780659404446}
+  m_BodyType: 2
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 6200000, guid: e4fc9770feed82145a418d6b7bab15fc, type: 2}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!114 &1827252780659404447
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1827252780659404446}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab794bba88cce034786525fc270b3d32, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 5
+  DestroyParticle: {fileID: 4420508751088741244, guid: 32557a26b0616e748a76d87c7373481b,
+    type: 3}
+  bulletExplosion: {fileID: 7507524137916514593, guid: d7b2c9aefeb86b848b77f9409dec7543,
+    type: 3}
+  BrickDestroyReward:
+  - {fileID: 875650636209901606, guid: e8627a7e4a86fe648a4bdd5e96ef0da8, type: 3}
+  - {fileID: 4454123303229143152, guid: b3354b2a5bdd10147a1d9bd78bedb960, type: 3}
+  - {fileID: 4886266283729894644, guid: ddac8701a09383b4abe21672ddf3d4ee, type: 3}
+  - {fileID: 2992924151296986368, guid: 0fbc23121cb2ac549a33791ed943df8e, type: 3}
+  - {fileID: 2554034904336366506, guid: 247e69467636afe4aa61224bac5ead82, type: 3}
+  - {fileID: 5175857100987587886, guid: 5d0e57f2758ba0645af4f9878a62be50, type: 3}
+  - {fileID: 875650636209901606, guid: 8968f059de5aeeb44b904ba0b2180568, type: 3}
+  - {fileID: 1222363055491680983, guid: 89d85fd7ece49d644b5cf67ae8a6e839, type: 3}
+  - {fileID: 875650636209901606, guid: bad41aff8a4ad584abac407daf4e074c, type: 3}
+  - {fileID: 4327176933116216970, guid: 6e52dff56e9461648aaf65ac701d1ffa, type: 3}
+  - {fileID: 7951104322370964291, guid: 524d8056218457e4bbdecefef2ed9b25, type: 3}
+  - {fileID: 4696193019594002048, guid: 9570a7b94197e9d4ba3b5a2ba72f6967, type: 3}
+  - {fileID: 2489598455245281851, guid: a1b7a18fd5ed0e040a6a1d407c10c0f9, type: 3}
+  - {fileID: 875650636209901606, guid: a16a70548be51414485814c45c756de1, type: 3}
+  - {fileID: 4886266283729894644, guid: 862d0b6891e634544b8c0ce564d0d8a6, type: 3}
+  - {fileID: 4886266283729894644, guid: 1ffa71be16f587946b71201e438d09f4, type: 3}
+  - {fileID: 875650636209901606, guid: e97e19045aa551d4a9ba2fdcda333141, type: 3}
+  BreakingSound: {fileID: 8300000, guid: 5639e674e60560245a523940f05feac3, type: 3}
+  PlayerColliedeSound: {fileID: 8300000, guid: 1e65cc01c6567e848b934521335890b6, type: 3}
+  brickSprites:
+  - {fileID: 7248365903686495550, guid: 7c87f0f7f59cc24479528928011540f3, type: 3}
+  - {fileID: 1440206400264143830, guid: 7c87f0f7f59cc24479528928011540f3, type: 3}
+  - {fileID: -2220071549990307912, guid: 7c87f0f7f59cc24479528928011540f3, type: 3}
+  - {fileID: 5894618434672192243, guid: 7c87f0f7f59cc24479528928011540f3, type: 3}
+  - {fileID: 7136790836568633292, guid: 7c87f0f7f59cc24479528928011540f3, type: 3}
+  isUnbreakable: 0
+  isNumberBrick: 0
+  isStoneBrick: 1
+  numberText: {fileID: 0}
+  myColor: 0
